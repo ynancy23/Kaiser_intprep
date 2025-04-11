@@ -1,0 +1,30 @@
+---
+title: "Kaiser_CaseStudy"
+format: html
+editor: visual
+---
+
+```{r}
+library("readxl")
+clasbi <- read_excel("data_CLASBI.xlsx")
+handhygiene <- read_excel("data_handhygiene.xlsx")
+marketdata <- read_excel("data_marketlvldata.xlsx")
+```
+
+```{r}
+names(clasbi)
+typeof(clasbi)
+names(handhygiene)
+typeof(handhygiene)
+names(marketdata)
+str(marketdata)
+
+```
+
+```{r}
+install.packages("ggplot2")
+library(ggplot2)
+
+
+
+```
